@@ -14,10 +14,10 @@ export default function DetailProduct() {
     <>
       <Header></Header>
       <Container>
-        <div className=" grid grid-cols-12 gap-12 mt-12">
-          <div className=" col-span-5">
-            <div>
-              <img
+        <div className=" grid grid-cols-1 md:grid-cols-12 gap-12 mt-12">
+          <div className=" col-span-1 md:col-span-5">
+            <div className=" overflow-hidden w-full">
+              <img className=" object-contain"
                 src="https://product.hstatic.net/1000220639/product/bot_milk_foam_pho_mai_sta_11ac193033b74a62b9f040ad0ed9a942_1024x1024.png"
                 alt=""
               />
@@ -62,7 +62,7 @@ export default function DetailProduct() {
               </SliderClient>
             </div>
           </div>
-          <div className=" col-span-7">
+          <div className=" col-span-1 md:col-span-7">
             <h1 className=" text-2xl font-bold">
               Bột Milk Foam Phô Mai - Lúave, Tạo lớp milk foam sánh mịn hương vị
               phô mai thơm béo đặc trưng
